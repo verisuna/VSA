@@ -1,3 +1,5 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/verisuna/VSA/main/HITBOX.lua", true))()
+
 if getgenv().Aiming then return getgenv().Aiming end
 local Players = game:GetService("Players")
 local Workspace = game:GetService("Workspace")
