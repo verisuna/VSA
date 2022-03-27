@@ -51,13 +51,13 @@ local AimingSettings = {
         Enabled = true,
         Scale = 60,
         Sides = 12,
-        Colour = Color3fromRGB(231, 84, 128)
+        Colour = Color3fromRGB(255, 255, 255)
     },
 
     TracerSettings = {
         Tracer = Drawingnew("Line"),
         Enabled = true,
-        Colour = Color3fromRGB(231, 84, 128)
+        Colour = Color3fromRGB(255, 255, 255)
     },
 
     Ignored = {
