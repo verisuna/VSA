@@ -32,3 +32,21 @@ VSA Is also available for purchasing in our community discord server, please not
 - Customisable - All of our modules are customisable, easy to suit your needs.
 - Reliable - VSA has got quality updates, and many users improving the script to where it is now.
 - Cheap - Our script is cheap and affordable so it's easy can purchase.
+
+## Execution
+**If you are having troubles with executing VSA, please read this guide. First, you will have to copy the URL of the LS.lua file, then you need to put it into a loadstring, which looks like this `loadstring(game:HttpGet(""))()` Once you have done that, it should look like this `loadstring(game:HttpGet("https://raw.githubusercontent.com/verisuna/VSA/main/LS.lua"))()`. Currently, we do not have a UI. We are working on that soon, though. So for now to customise VSA you can use
+ `_G.Fov = 
+_G.Sides = 
+_G.ShowFov = 
+_G.HitChance = `
+All of these settings are personal preference, although if you are looking for a recommended configuration you can copy the one below. 
+ `_G.Fov = 95
+_G.Sides = 100
+_G.ShowFov = true
+_G.HitChance = 100`
+The finished script should look like this:
+`_G.Fov = 95
+_G.Sides = 100
+_G.ShowFov = true
+_G.HitChance = 100
+loadstring(game:HttpGet("https://raw.githubusercontent.com/verisuna/VSA/main/LS.lua"))()`
